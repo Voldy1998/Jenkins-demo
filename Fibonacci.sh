@@ -16,6 +16,7 @@ then
     Num=$1
 else
     echo -n "Enter a Number by Anjana :"
+
     read Num
 fi
 
