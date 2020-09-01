@@ -15,14 +15,15 @@ if [ $# -eq 1 ]
 then
     Num=$1
 else
-    echo -n "Enter a Number by you :"
+    echo -n "Enter a Number by Anjana :"
+
     read Num
 fi
 
 f1=0
 f2=1
 
-echo "The Fibonacci sequences for the number $Num is : "
+echo "The Fibonacci sequences for the number $Num is :this is testing polling"
 
 for (( i=0;i<=Num;i++ ))
 do
